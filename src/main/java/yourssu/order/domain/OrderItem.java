@@ -10,4 +10,12 @@ public class OrderItem {
         this.price = price;
         this.count = count;
     }
+
+    public int calculateTotalPrice() {
+        return price * count;
+    }
+
+    public int getCount() {
+        return count;
+    }
 }
