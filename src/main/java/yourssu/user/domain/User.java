@@ -1,6 +1,8 @@
 package yourssu.user.domain;
 
 import java.util.List;
+
+import yourssu.order.domain.Order;
 import yourssu.post.domain.Post;
 
 public class User {
