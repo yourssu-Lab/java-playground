@@ -10,4 +10,17 @@ public class OrderItem {
         this.price = price;
         this.count = count;
     }
+
+
+    public int getPrice() {
+        return price;
+    }
+
+    public int getCount() {
+        return count;
+    }
+
+    public String getName() {
+        return name;
+    }
 }
