@@ -8,4 +8,8 @@ public class Order {
     public Order(List<OrderItem> items) {
         this.items = items;
     }
+
+    public List<OrderItem> getItems() {
+        return items;
+    }
 }
